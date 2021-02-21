@@ -110,3 +110,4 @@ C:\Users\marcin.pietrucha\source\repos\PartyInvites\bin\Debug\netcoreapp3.1\tr\M
 C:\Users\marcin.pietrucha\source\repos\PartyInvites\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\marcin.pietrucha\source\repos\PartyInvites\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\marcin.pietrucha\source\repos\PartyInvites\obj\Debug\netcoreapp3.1\Razor\Views\Home\RsvpForm.cshtml.g.cs
+C:\Users\marcin.pietrucha\source\repos\PartyInvites\obj\Debug\netcoreapp3.1\Razor\Views\Home\Thanks.cshtml.g.cs
