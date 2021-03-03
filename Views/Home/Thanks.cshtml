@@ -7,20 +7,21 @@
 
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width"/>
     <title>Thanks</title>
 </head>
 <body>
-    <p>
-        <h1>Thanks, @Model.Name!</h1>
-        @if (Model.WillAttend == true)
-        {
-            @:we are happy you will join us! :)
-        }
-        else
-        {
-            @:and now we are sad:(
-        }
-    </p>
+<p>
+    <h1>Thanks, @Model.Name!</h1>
+    @if (Model.WillAttend == true)
+    {
+        @:we are happy you will join us! :)
+    }
+    else
+    {
+        @:and now we are sad:(
+    }
+</p>
+<p>Click <a asp-action="ListResponses">here</a>, to view quest list</p>
 </body>
 </html>

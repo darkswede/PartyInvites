@@ -11,28 +11,29 @@
     <title>RsvpForm</title>
 </head>
 <body>
-    <form asp-action="RsvpForm" method="post">
-        <p>
-            <label asp-for="Name"> Name and Surname:</label>
-            <input asp-for="Name" />
-        </p>
-        <p>
-            <label asp-for="Email"> E-Mail Adress:</label>
-            <input asp-for="Email" />
-        </p>
-        <p>
-            <label asp-for="Phone"> Phone Number:</label>
-            <input asp-for="Phone" />
-        </p>
-        <p>
-            <label>Will you attend to our party?</label>
-            <select asp-for="WillAttend">
-                <option value="">Select an option.</option>
-                <option value="true">Yep, will be there</option>
-                <option value="false">Nah, next time</option>
-            </select>
-        </p>
-        <button type="submit">Send RSVP</button>
-    </form>
+<form asp-action="RsvpForm" method="post">
+    <div asp-validation-summary="All"></div>
+    <p>
+        <label asp-for="Name"> Name and Surname:</label>
+        <input asp-for="Name"/>
+    </p>
+    <p>
+        <label asp-for="Email"> E-Mail Adress:</label>
+        <input asp-for="Email"/>
+    </p>
+    <p>
+        <label asp-for="Phone"> Phone Number:</label>
+        <input asp-for="Phone"/>
+    </p>
+    <p>
+        <label>Will you attend to our party?</label>
+        <select asp-for="WillAttend">
+            <option value="">Select an option.</option>
+            <option value="true">Yep, will be there</option>
+            <option value="false">Nah, next time</option>
+        </select>
+    </p>
+    <button type="submit">Send RSVP</button>
+</form>
 </body>
 </html>

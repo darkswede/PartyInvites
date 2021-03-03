@@ -1,0 +1,11 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/projectSettingsUpdater.xml
+/modules.xml
+/contentModel.xml
+/.idea.PartyInvites.iml
+# Datasource local storage ignored files
+/../../../../../../../../../:\Users\marcin.pietrucha\source\repos\PartyInvites\.idea\.idea.PartyInvites\.idea/dataSources/
+/dataSources.local.xml
