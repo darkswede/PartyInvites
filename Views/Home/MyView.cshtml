@@ -8,15 +8,13 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>sylvester eve</title>
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css">
 </head>
 <body>
-    <div>
-        @ViewBag.Greeting world (from a view page)
-        <p>
-            we invite you for a great party!<br />
-            (to do, upgrade add pics etc)
-        </p>
-        <a asp-action="RsvpForm"> Send RSVP</a>
+    <div class="text-center">
+        <h2>we invite you for a great party!</h2>
+        <h3>yes, you</h3>
+        <a class="btn btn-primary" asp-action="RsvpForm">Send RSVP</a>
     </div>
 </body>
 </html>
