@@ -9,8 +9,6 @@ namespace PartyInvites.Controllers
     {
         public ViewResult Index()
         {
-            int hour = DateTime.Now.Hour;
-            ViewBag.Greeting = hour < 17 ? "good morning" : "good evening";
             return View("MyView");
         }
 
@@ -36,7 +34,7 @@ namespace PartyInvites.Controllers
 
         public ViewResult ListResponses()
         {
-            return View(Repository.Responses.Where(r=>  r.WillAttend == true));
+            return View(Repository.Responses.Where(r => r.WillAttend == true));
         }
     }
 }
